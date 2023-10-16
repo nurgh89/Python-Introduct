@@ -1,0 +1,20 @@
+# Kel 1
+
+version: '4'
+services:
+  app:
+    build:
+      context: ./python-app
+    volumes:
+      - ./python-app:/app
+    depends_on:
+      - database
+
+  database:
+    image: postgres
+    environment:
+      POSTGRES_USER: KEL_1
+      POSTGRES_PASSWORD: KEL_1
+      POSTGRES_DB: KEL_1
+    ports:
+      - "5432:5432"
