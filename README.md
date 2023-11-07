@@ -26,7 +26,7 @@ Run this project using `docker compose up` command in the root directory of this
 
 ## Additional Configuration in Airflow
 ### Connections
-#### day18_kel11
+#### day18_ke 1
 Used to save data to the database psql production
 ```
 Connection Id = day18_kel11
