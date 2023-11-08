@@ -29,10 +29,10 @@ Run this project using `docker compose up` command in the root directory of this
 #### day18_ke 1
 Used to save data to the database psql production
 ```
-Connection Id = day18_kel11
+Connection Id = day18_kel1
 Connection Type = Postgres
 Host = ep-falling-leaf-21500535.ap-southeast-1.aws.neon.tech
-Schema = kel11
+Schema = kel1
 Login = diwahsap
 Password = Yj7lGFtyH3sQ
 Port = 5432
