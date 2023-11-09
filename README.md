@@ -17,6 +17,8 @@ This project is an ETL pipeline project that is used to extract data from the Op
 - Docker
 - Airflow
 - PostgreSQL
+- Pyton
+- SQL
 
 ## How to Run
 Run this project using `docker compose up` command in the root directory of this project.
@@ -33,8 +35,8 @@ Connection Id = day18_kel1
 Connection Type = Postgres
 Host = ep-falling-leaf-21500535.ap-southeast-1.aws.neon.tech
 Schema = kel1
-Login = diwahsap
-Password = Yj7lGFtyH3sQ
+Login = nurgh
+Password = Noor890
 Port = 5432
 ```
 #### postgresql_db
